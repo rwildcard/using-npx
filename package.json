@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "cross-env path=\"lang\" npx testing-npx"
+    "start": "npx testing-npx --path=lang"
   },
   "repository": {
     "type": "git",
@@ -17,10 +17,10 @@
   },
   "homepage": "https://github.com/rwildcard/using-npx#readme",
   "dependencies": {
-    "prettier": "^2.3.1",
-    "testing-npx": "git+https://github.com/rwildcard/testing-npx.git"
+    "prettier": "^2.3.1"
   },
   "devDependencies": {
-    "cross-env": "^7.0.3"
+    "cross-env": "^7.0.3",
+    "testing-npx": "git+https://github.com/rwildcard/testing-npx.git"
   }
 }
