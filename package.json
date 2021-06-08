@@ -1,0 +1,26 @@
+{
+  "name": "using-npx",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "cross-env path=\"lang\" npx testing-npx"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rwildcard/using-npx.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rwildcard/using-npx/issues"
+  },
+  "homepage": "https://github.com/rwildcard/using-npx#readme",
+  "dependencies": {
+    "prettier": "^2.3.1",
+    "testing-npx": "git+https://github.com/rwildcard/testing-npx.git"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3"
+  }
+}
